@@ -10,3 +10,4 @@ pip install --upgrade --force-reinstall <package>
 ```python
 a = np.delete(a, self.ind, i).copy()
 ```
+4. multithreading einsum: https://pypi.org/project/einsumt/
