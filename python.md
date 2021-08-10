@@ -16,3 +16,7 @@ a = np.delete(a, self.ind, i).copy()
 ```python
 bool isinstance(a, list)
 ```
+7. numpy.loadtxt load only one number:
+```python
+ndmin=1 # in loadtxt
+```
