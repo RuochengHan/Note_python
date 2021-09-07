@@ -20,3 +20,7 @@ bool isinstance(a, list)
 ```python
 ndmin=1 # in loadtxt
 ```
+8. kill a process
+```python
+os.kill(pid, signal.SIGTERM)
+```
