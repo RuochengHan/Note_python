@@ -24,3 +24,8 @@ ndmin=1 # in loadtxt
 ```python
 os.kill(pid, signal.SIGTERM)
 ```
+
+9. reduce function:
+```python
+abc = reduce(np.dot, (a,b,c))
+```
