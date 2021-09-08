@@ -27,5 +27,6 @@ os.kill(pid, signal.SIGTERM)
 
 9. reduce function:
 ```python
+from functools import reduce
 abc = reduce(np.dot, (a,b,c))
 ```
