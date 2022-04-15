@@ -30,3 +30,8 @@ os.kill(pid, signal.SIGTERM)
 from functools import reduce
 abc = reduce(np.dot, (a,b,c))
 ```
+
+10. initialize python nested list:
+```python
+[[0] * (n + 1) for _ in range(m + 1)] # not [[0]*(n+1)]*(m+1)!!!
+```
