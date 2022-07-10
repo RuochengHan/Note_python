@@ -35,3 +35,8 @@ abc = reduce(np.dot, (a,b,c))
 ```python
 [[0] * (n + 1) for _ in range(m + 1)] # not [[0]*(n+1)]*(m+1)!!!
 ```
+
+11. give a combined list:
+```python
+l_abc = np.array(np.meshgrid(l_a,l_b,l_c)).T.reshape(-1,3)
+```
