@@ -14,3 +14,9 @@ import matplotlib as mpl
 mpl.use('Agg')
 import matplotlib.pyplot as plt
 ```
+
+4. Segmentation fault (core dumped) or python: tpp.c:83: __pthread_tpp_change_priority: Assertion `new_prio == -1 || (new_prio >= fifo_min_prio && new_prio <= fifo_max_prio)' failed.
+Aborted (core dumped): https://github.com/matplotlib/matplotlib/issues/9294/
+```bash
+pip install pyqt5 -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
