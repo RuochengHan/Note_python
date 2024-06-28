@@ -1,7 +1,7 @@
 # Usual packages
 
 ```bash
-conda install numpy matplotlib scikit-learn xtb
+conda install numpy matplotlib scikit-learn xtb psi4
 pip install 
 ```
 
