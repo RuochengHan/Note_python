@@ -2,7 +2,7 @@
 
 ```bash
 conda install numpy matplotlib scikit-learn xtb psi4 rdkit
-pip install 
+pip install opt_einsum
 ```
 
 # PIP
