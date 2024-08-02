@@ -15,3 +15,7 @@ pip install mysqlclient mysql-connector-python -i https://pypi.tuna.tsinghua.edu
 ```
 
 # Conda
+1. Error when conda install: IOError: [Errno 24] Too many open files:
+```bash
+ulimit -n 4096
+```
