@@ -1,4 +1,4 @@
-# Usual packages
+# Usually used package
 
 ```bash
 conda install numpy matplotlib scikit-learn xtb psi4 rdkit
