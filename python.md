@@ -40,3 +40,10 @@ abc = reduce(np.dot, (a,b,c))
 ```python
 l_abc = np.array(np.meshgrid(l_a,l_b,l_c)).T.reshape(-1,3)
 ```
+
+12. pandas without index:
+```python
+import pandas as pd
+df = pd.read_csv('file.csv', index_col=0)
+df.to_csv('file.csv', index=False)
+```
