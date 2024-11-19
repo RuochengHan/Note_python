@@ -47,3 +47,13 @@ import pandas as pd
 df = pd.read_csv('file.csv', index_col=0)
 df.to_csv('file.csv', index=False)
 ```
+
+13. pandas cannot read '\t' in string from request respond, but the printed out string can be read/
+```python
+# Reason:
+#JSON Serialization: When data is sent as JSON, special characters like tabs and newlines are often escaped to ensure that the JSON remains valid and can be properly parsed. In JSON, a tab character is represented as \\t and a newline as \\n.
+#String Representation: When you receive the response, these escaped characters are treated as literal strings in Python. Therefore, you see \\t instead of an actual tab character and \\n instead of an actual newline.
+
+# Solution:
+cleaned_text = response.text.replace('\\t', "\t").replace('\\n', "\n")
+```
