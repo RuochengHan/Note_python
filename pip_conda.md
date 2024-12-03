@@ -19,3 +19,17 @@ pip install mysqlclient mysql-connector-python -i https://pypi.tuna.tsinghua.edu
 ```bash
 ulimit -n 4096
 ```
+2. 50X error, usually means cahnnels defaults not work, need to use conda-forge, but simply remove does not work in miniconda docker.
+```bash
+# Either to use nodefaults in conda_env.yml:
+name: py39
+channels:
+  - nodefaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - xtb-python
+
+# Or force --override-channels
+conda install --override-channels -c conda-forge --yes --file conda_requirements.txt
+```
