@@ -7,6 +7,11 @@ Recommend to use tblite 0.3.0
 ## pip
 ```bash
 pip install tblite==0.3.0 -i https://pypi.tuna.tsinghua.edu.cn/simple # this is python API
+export OMP_NUM_THREADS=32
+export MKL_NUM_THREADS=32
+
+# sometimes need to reactivate the conda env
+
 ```
 
 ## conda
