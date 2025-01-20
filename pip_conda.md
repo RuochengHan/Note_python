@@ -2,7 +2,7 @@
 
 ```bash
 conda install numpy matplotlib scikit-learn xtb psi4 rdkit
-pip install opt_einsum -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install opt_einsum scikit-learn rdkit MDAnalysis xtb typing-extensions tblite==0.3.0 -i https://pypi.tuna.tsinghua.edu.cn/simple # xtb requires typing-extensions
 ```
 
 # PIP
