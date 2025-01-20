@@ -4,6 +4,8 @@
 Somehow tblite 0.4.0 has some problem in MO coefficient. e.g. c1ccccc1 not equvalent
 Recommend to use tblite 0.3.0
 
+Always test c1ccccc1 spped and accuracy after newly install
+
 ## pip
 ```bash
 pip install tblite==0.3.0 -i https://pypi.tuna.tsinghua.edu.cn/simple # this is python API
