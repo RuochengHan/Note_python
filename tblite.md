@@ -1,8 +1,11 @@
 # tblite
 
 ## version issue
-Somehow tblite 0.4.0 has some problem in MO coefficient. e.g. c1ccccc1 not equvalent
-Recommend to use tblite 0.3.0
+Somehow tblite 0.4.0 has some problem in MO coefficient. e.g. c1ccccc1 not equivalent
+0.4.0 is quicker (~2-3 times) for large molecules (200 atoms). The energy/gradient seems to be the same.
+
+Recommend to use tblite 0.3.0 for MO coefficient.
+Recommend to use tblite 0.4.0 for energy/gradient.
 
 Always test c1ccccc1 spped and accuracy after newly install
 
