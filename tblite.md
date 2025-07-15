@@ -6,10 +6,10 @@ Somehow tblite 0.4.0 has some problem in MO coefficient. e.g. c1ccccc1 not equiv
 
 Recommend to use tblite 0.3.0 for MO coefficient.
 Recommend to use tblite 0.4.0 for energy/gradient.
-Note that conda install conda-forge::tblite-python=0.4.0 with tblite=0.4.0 can use all 16 cores, with pip version tblite 0.4.0 causes problem in using all 16 cores (only 2-4 cores)
+Note that conda install conda-forge::tblite-python=0.4.0 with tblite=0.4.0 can use all 16 cores, with **pip version tblite 0.4.0 causes problem in using all 16 cores (only 2-4 cores)**
 
 
-Always test c1ccccc1 spped and accuracy after newly install
+Always test c1ccccc1 speed and accuracy after newly install
 
 ## pip
 ```bash
@@ -20,6 +20,7 @@ export MKL_NUM_THREADS=16
 # sometimes need to reactivate the conda env
 
 ```
+
 
 ## conda
 ```bash
