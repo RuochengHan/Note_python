@@ -24,7 +24,7 @@ export MKL_NUM_THREADS=16
 ## conda
 ```bash
 conda install conda-forge::tblite=0.3.0 # this is CMD tblite run
-conda install conda-forge::tblite-python=0.3.0 # this is python API
+conda install tblite-python=0.3.0 # this is python API
 export OMP_NUM_THREADS=16
 export MKL_NUM_THREADS=16
 ```
